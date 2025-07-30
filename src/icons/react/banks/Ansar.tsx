@@ -1,0 +1,43 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgAnsar = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clipPath="url(#clip0)">
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M3.5083 15.4969H20.4641V20.4741H3.5083V15.4969Z"
+          fill="#EAB612"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M3.53369 3.51831H20.4886V8.49557H3.53369V3.51831Z"
+          fill="#EAB612"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M0 11.9769L12.0126 0L15.5217 3.52588L3.5091 15.5036L0 11.9769Z"
+          fill="#A71A20"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M8.47852 20.4741L20.4911 8.49725L24.0002 12.0231L11.9876 24L8.47852 20.4741Z"
+          fill="#A71A20"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0">
+          <rect width={24.0002} height={24} fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export default SvgAnsar;

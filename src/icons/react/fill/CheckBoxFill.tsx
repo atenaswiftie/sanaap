@@ -1,0 +1,32 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgCheckBoxFill = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clipPath="url(#clip0_7076_6196)">
+        <rect
+          y={0.00012207}
+          width={20}
+          height={20}
+          rx={6}
+          fill="currentColor"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M15.1726 6.4942C15.498 6.81964 15.498 7.34728 15.1726 7.67271L9.33925 13.506C9.01382 13.8315 8.48618 13.8315 8.16074 13.506L5.24408 10.5894C4.91864 10.2639 4.91864 9.7363 5.24408 9.41087C5.56951 9.08543 6.09715 9.08543 6.42259 9.41087L8.75 11.7383L13.9941 6.4942C14.3195 6.16876 14.8471 6.16876 15.1726 6.4942Z"
+          fill="#F1F2F4"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_7076_6196">
+          <rect y={0.00012207} width={20} height={20} rx={6} fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export default SvgCheckBoxFill;

@@ -1,0 +1,22 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgCreditCard = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <path
+        fill="currentColor"
+        d="M6 15.755a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5H6Zm3.75.75a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z"
+      />
+      <path
+        fill="currentColor"
+        fillRule="evenodd"
+        d="M1.25 7.895c0-1.751.204-3.147 1.111-4.045.905-.894 2.31-1.095 4.079-1.095h11.11c1.774 0 3.181.2 4.087 1.095.91.897 1.113 2.294 1.113 4.045v8.21c0 1.751-.204 3.147-1.111 4.044-.905.895-2.31 1.096-4.079 1.096H6.44c-1.768.005-3.173-.193-4.078-1.086-.908-.896-1.112-2.293-1.112-4.044v-8.22Zm1.5-.14c.013-1.662.252-2.43.666-2.838.428-.423 1.243-.662 3.024-.662h11.11c1.786 0 2.604.239 3.033.662.415.41.654 1.176.667 2.838H2.75Zm18.5 1.5v6.85c0 1.759-.241 2.558-.666 2.978-.428.423-1.243.662-3.024.662H6.438c-1.781.005-2.595-.232-3.022-.654-.425-.419-.666-1.217-.666-2.976v-6.86h18.5Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+export default SvgCreditCard;

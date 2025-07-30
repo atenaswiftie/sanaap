@@ -1,0 +1,78 @@
+import type { ThemeOptions } from "@mui/material";
+
+export const lightPalette: ThemeOptions["palette"] = {
+  mode: "light",
+  background: {
+    default: "#F5F5F5",
+    paper: "#FFFFFF",
+  },
+  text: {
+    primary: "#001A3F",
+    secondary: "#525252",
+    tertiary: "#8F8F8F",
+    disabled: "#00000099",
+  },
+  line: {
+    primary: "#E1E1E1",
+    secondary: "#C7C7C7",
+    tertiary: "#8F8F8F",
+  },
+  secondary: {
+    lighter: "#78828a",
+    light: "#2d333a",
+    miner: "#c6ccd3",
+    main: "#fb6436",
+    dark: "#0d1011",
+    darker: "#040506",
+    overlay: "#f1f2f4",
+  },
+  primary: {
+    lighter: "#e7f1f2",
+    light: "#dae5e5",
+    lightCyn: "#68b3af",
+    miner: "#359a95",
+    main: "#037785",
+    deep: "#026762",
+    darkCyn: "#024d49",
+    dark: "#013431",
+    darker: "#011a18",
+    overlay: "#E5F8F3",
+  },
+  success: {
+    lighter: "#E5FAF3",
+    light: "#8CD9BF",
+    main: "#34B288",
+    dark: "#008055",
+    darker: "#006644",
+    overlay: "#eefcf7",
+  },
+  error: {
+    lighter: "#edbfc6",
+    light: "#e4677c",
+    main: "#eb4763",
+    dark: "#d22d48",
+    darker: "#8f2436",
+    overlay: "#fff5f7",
+  },
+  warning: {
+    lighter: "#FFF2E0",
+    light: "#ffc066",
+    main: "#ff9500",
+    dark: "#ff8c00",
+    darker: "#984b00",
+    overlay: "#fffcf5",
+  },
+  info: {
+    lighter: "#c3d4ee",
+    light: "#4c9aff",
+    main: "#0c68f4",
+    dark: "#0e54b7",
+    darker: "#0f3e80",
+    overlay: "#f0f6ff",
+  },
+  common: {
+    white: "#FFFFFF",
+    black: "#000000",
+  },
+  divider: "#f5f5f5",
+};

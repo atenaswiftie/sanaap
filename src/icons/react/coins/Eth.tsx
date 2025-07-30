@@ -1,0 +1,45 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgEth = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <g clipPath="url(#a)">
+        <path
+          fill="#627EEA"
+          d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12Z"
+        />
+        <path
+          fill="#fff"
+          fillOpacity={0.602}
+          d="M11.999 4v5.913l4.998 2.234L11.999 4Z"
+        />
+        <path fill="#fff" d="M11.999 4 7 12.147l4.999-2.234V4Z" />
+        <path
+          fill="#fff"
+          fillOpacity={0.602}
+          d="M11.999 15.979v4.018L17 13.077l-5.001 2.902Z"
+        />
+        <path fill="#fff" d="M11.999 19.997v-4.019L7 13.078l4.999 6.919Z" />
+        <path
+          fill="#fff"
+          fillOpacity={0.2}
+          d="m11.999 15.049 4.998-2.902-4.998-2.232v5.134Z"
+        />
+        <path
+          fill="#fff"
+          fillOpacity={0.602}
+          d="m7 12.147 4.999 2.902V9.915L7 12.147Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="a">
+          <path fill="#fff" d="M0 0h24v24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export default SvgEth;

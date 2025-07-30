@@ -1,0 +1,304 @@
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Thin.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Thin.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-ExtraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-ExtraLight.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Light.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Medium.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-SemiBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-SemiBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-ExtraBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-ExtraBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Black.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Bold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWeb;
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("/src/assets/fonts/PeydaWeb/standard/woff2/PeydaWeb-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/standard/woff/PeydaWeb-Regular.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/* PeydaWebNoEn */
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Thin.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Thin.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-ExtraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-ExtraLight.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Light.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Medium.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-SemiBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-SemiBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-ExtraBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-ExtraBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Black.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Bold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebNoEn;
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("/src/assets/fonts/PeydaWeb/no-en/woff2/PeydaWebNoEn-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/no-en/woff/PeydaWebNoEn-Regular.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/* PeydaWebFaNum */
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Thin.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Thin.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-ExtraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-ExtraLight.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Light.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Medium.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-SemiBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-SemiBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-ExtraBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-ExtraBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Black.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Bold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: PeydaWebFaNum;
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("/src/assets/fonts/PeydaWeb/fa-num/woff2/PeydaWebFaNum-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/src/assets/fonts/PeydaWeb/fa-num/woff/PeydaWebFaNum-Regular.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}

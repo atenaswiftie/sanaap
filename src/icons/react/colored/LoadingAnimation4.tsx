@@ -1,0 +1,21 @@
+const SvgLoadingAnimation4 = () => {
+  return (
+    <svg
+      width={72}
+      height={72}
+      viewBox="0 0 72 72"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx={35.9999} cy={12.5214} r={7.82609} fill="#2D333A" />
+      <circle cx={12.5216} cy={12.5214} r={7.82609} fill="#359A95" />
+      <circle cx={12.5216} cy={35.9999} r={7.82609} fill="#2D333A" />
+      <circle cx={59.4782} cy={12.5214} r={7.82609} fill="#359A95" />
+      <circle cx={35.9999} cy={35.9999} r={7.82609} fill="#2D333A" />
+      <circle cx={35.9999} cy={59.4784} r={7.82609} fill="#359A95" />
+      <circle cx={59.4782} cy={35.9999} r={7.82609} fill="#2D333A" />
+      <circle cx={59.4782} cy={59.4784} r={7.82609} fill="#359A95" />
+    </svg>
+  );
+};
+export default SvgLoadingAnimation4;

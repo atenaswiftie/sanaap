@@ -1,0 +1,17 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgStar1Fill = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        id="Star 1"
+        d="M8 0.000488281L9.04512 5.12904L13.1423 1.87213L10.6463 6.47262L15.8785 6.6113L11.0093 8.53111L14.9282 12.0005L9.96418 10.3413L10.7362 15.518L8 11.0562L5.26384 15.518L6.03582 10.3413L1.0718 12.0005L4.99069 8.53111L0.121538 6.6113L5.35366 6.47262L2.8577 1.87213L6.95488 5.12904L8 0.000488281Z"
+        fill="#C6CCD3"
+      />
+    </svg>
+  );
+};
+export default SvgStar1Fill;

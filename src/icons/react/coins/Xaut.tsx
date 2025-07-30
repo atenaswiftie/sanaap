@@ -1,0 +1,41 @@
+import type { ComponentProps } from "react";
+import { createElement } from "react";
+import { SvgIcon } from "@mui/material";
+const SvgXaut = (props: ComponentProps<typeof SvgIcon>) => {
+  return createElement(
+    SvgIcon,
+    props,
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clipPath="url(#clip0_203_13432)">
+        <circle cx={12} cy={12} r={12} fill="url(#paint0_linear_203_13432)" />
+        <path
+          d="M11.1431 11.5855C8.94854 11.6588 7.28564 12.0084 7.28564 12.4286C7.28564 12.9019 9.3963 13.2857 11.9999 13.2857C14.6036 13.2857 16.7142 12.9019 16.7142 12.4286C16.7142 12.0084 15.0516 11.6589 12.8574 11.5856V12.8571H11.1431V11.5855Z"
+          fill="white"
+        />
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M17.3633 5.57141H6.613L3.42871 12.5593L12.0001 21L20.5716 12.5593L17.3633 5.57141ZM12.8573 13.6967C15.2903 13.5947 17.1447 13.0658 17.1447 12.4286C17.1447 11.7913 15.2904 11.2624 12.8574 11.1605V9.85711H15.8574V8.14282H8.14307V9.85711H11.1431V11.1607C8.71167 11.2629 6.859 11.7916 6.859 12.4286C6.859 13.0654 8.71171 13.5943 11.143 13.6963V17.5714H12.8573V13.6967Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_203_13432"
+          x1={12}
+          y1={0}
+          x2={12}
+          y2={24}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#D29C55" />
+          <stop offset={1} stopColor="#E9B662" />
+        </linearGradient>
+        <clipPath id="clip0_203_13432">
+          <rect width={24} height={24} fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export default SvgXaut;
