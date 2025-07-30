@@ -17,7 +17,7 @@ type LoginStates = "Level1" | "Level2" | "Level3" | "Level4";
 const loginStates: LoginStates[] = ["Level1", "Level3", "Level4"];
 
 export const Signup = () => {
-  const [loginState, setLoginState] = useState<LoginStates>("Level4");
+  const [loginState, setLoginState] = useState<LoginStates>("Level1");
   const { setPhoneNumber } = useLoginStore();
   const navigate = useNavigate();
   const handleBack = () => {
