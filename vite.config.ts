@@ -24,32 +24,6 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./src/setupTests.ts",
     mockReset: true,
-    coverage: {
-      provider: "v8",
-      reportsDirectory: "./coverage",
-      reporter: ["text", "html"],
-      include: ["src"],
-      exclude: [
-        "src/apis",
-        "src/assets",
-        "src/components",
-        "src/apis",
-        "src/icons",
-        "src/routes",
-        "src/styles",
-        "src/utils",
-        "src/main.tsx",
-        "src/routeTree.gen.ts",
-      ],
-    },
-    reporters: [
-      "default",
-      [
-        "junit",
-        {
-          outputFile: "./coverage/junit.xml",
-        },
-      ],
-    ],
+    reporters: ["default"],
   },
 });

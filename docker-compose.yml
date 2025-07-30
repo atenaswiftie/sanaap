@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  # Development service
+  sanaap-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - "6030:6030"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    profiles:
+      - dev
+
+  # Production service
+  sanaap-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    profiles:
+      - prod
+
+  # Development with hot reload (alternative)
+  sanaap-dev-hot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - "6030:6030"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    profiles:
+      - dev-hot 
